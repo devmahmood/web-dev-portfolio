@@ -21,7 +21,7 @@ nav {
     font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     line-height: normal;
     border: none;
     padding: 15px 35px;
@@ -54,10 +54,49 @@ nav a {
 
 .hdr {
     background-color: #fff8f3;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+}
+
+.banner-content {
+    max-width: 87%;
+    justify-content: space-between;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    color:#181818;
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-para {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
 }
