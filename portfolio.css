@@ -6,6 +6,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
 }
 
 .primary-text-color {
@@ -48,4 +50,14 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.hdr {
+    background-color: #fff8f3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
 }
